@@ -1,7 +1,7 @@
 #include <iostream>
 int separate(int num);
 int randAnswer(int* answerArray);
-int printAnswer(int *  answerArray);
+int printAnswer(int * answerArray);
 int printGuess();
 int strikeBall(int * answerArray , int * guessAway);
 

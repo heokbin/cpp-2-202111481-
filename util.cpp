@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 
-randAnswer(int* answerArray) {
+int randAnswer(int* answerArray) {
     srand(time(NULL));
     for (int i = 0; i<3; i++) {
         answerArray [i] = rand() % 10;
@@ -11,11 +11,6 @@ randAnswer(int* answerArray) {
             }
         }
     }
-}
-
-int printAnswer(int * answerArray) {
-        std::cout << "Answer is " << answerArray [2] << answerArray [1] << answerArray [0] <<std::endl;
-        return 0;
 }
 
 int printAnswer(int * answerArray) {

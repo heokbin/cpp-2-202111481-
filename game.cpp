@@ -2,7 +2,7 @@
 int print(int strikes, int Balls);
 
 int separate(int num) { 
-    num = num % 10;
+    num = num % 10; 
     return num;
 }
 
