@@ -1,14 +1,12 @@
 #include <iostream>
 int separate(int num);
 int randAnswer(int* answerArray);
-int printAnswer(int * answerArray);
 int printGuess();
 int strikeBall(int * answerArray , int * guessAway);
 
 int main() { 
     int answerArray [3] = {};
     randAnswer(answerArray);
-    printAnswer(answerArray);
     
     bool trueFalse = true;
     while(trueFalse){

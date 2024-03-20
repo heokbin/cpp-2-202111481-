@@ -1,8 +1,8 @@
 #include <iostream>
 int print(int strikes, int Balls);
 
-int separate(int num) { 
-    num = num % 10; 
+int separate(int num) {
+    num = num % 10;
     return num;
 }
 
