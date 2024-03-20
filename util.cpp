@@ -1,9 +1,16 @@
 #include <iostream>
-int printAnswer() {
-    int answer;
-    std::cout << "Enter a ansewr: ";
-    std::cin >> answer;
+#include <ctime>
+
+int randAnswer() {
+    int answer = 0;
+    srand(time(NULL));
+    answer = rand() % 1000;
     return answer;
+}
+
+int printAnswer(int * answerArray) {
+        std::cout << "Answer is " << answerArray [2] << answerArray [1] << answerArray [0] <<std::endl;
+        return 0;
 }
 
 int printGuess() {
