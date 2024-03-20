@@ -18,6 +18,11 @@ int printAnswer(int * answerArray) {
         return 0;
 }
 
+int printAnswer(int * answerArray) {
+        std::cout << "Answer is " << answerArray [2] << answerArray [1] << answerArray [0] <<std::endl;
+        return 0;
+}
+
 int printGuess() {
     int guess;
     std::cout << "Enter a guess: ";
