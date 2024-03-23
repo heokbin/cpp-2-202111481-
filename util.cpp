@@ -31,3 +31,9 @@ int print(int strikes, int balls) {
     }
     return trueFalse;
 }
+
+int printCount(int count) {
+    std::cout << count << " chances left." <<std::endl;
+    count--;
+    return count;
+}

@@ -21,6 +21,7 @@ int strikeBall(int * answerArray, int * guessArray) {
             }
         }
     }
+    
     bool trueFalse = true;
     trueFalse = print(strikes, balls);
     return trueFalse;
